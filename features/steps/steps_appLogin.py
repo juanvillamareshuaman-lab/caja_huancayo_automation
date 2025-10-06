@@ -16,6 +16,7 @@ def step_impl(context, datos):
     if context.ejecutar == "SI":
         context.pageLogin.ingresar_nro_doc(datos)
 
+
 @when('Usuario ingresa password "{datos}"')
 def step_impl(context, datos):
     if context.ejecutar == "SI":
